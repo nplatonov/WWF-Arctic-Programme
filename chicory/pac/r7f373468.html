@@ -14,21 +14,22 @@
 
 <title>ArcNet PAC 67</title>
 
-<script src="https://nplatonov.github.io/site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="https://nplatonov.github.io/site_libs/header-attrs-2.20/header-attrs.js"></script>
+<link href="https://nplatonov.github.io/site_libs/value-box-core-0.6.0/value-box.css" rel="stylesheet" />
 <link href="https://nplatonov.github.io/site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="https://nplatonov.github.io/site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="https://nplatonov.github.io/site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
 <script src="https://nplatonov.github.io/site_libs/raphael-2.1.4/raphael-2.1.4.min.js"></script>
 <link href="https://nplatonov.github.io/site_libs/justgage-1.2.2.1/justgage.css" rel="stylesheet" />
 <script src="https://nplatonov.github.io/site_libs/justgage-1.2.2.1/justgage.js"></script>
-<script src="https://nplatonov.github.io/site_libs/gauge-binding-0.5.2/gauge.js"></script>
-<script src="https://nplatonov.github.io/site_libs/jquery-3.5.1/jquery.min.js"></script>
-<script src="https://nplatonov.github.io/site_libs/plotly-binding-4.9.3/plotly.js"></script>
+<script src="https://nplatonov.github.io/site_libs/gauge-binding-0.6.0/gauge.js"></script>
+<script src="https://nplatonov.github.io/site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://nplatonov.github.io/site_libs/plotly-binding-4.10.1/plotly.js"></script>
 <script src="https://nplatonov.github.io/site_libs/typedarray-0.1/typedarray.min.js"></script>
-<link href="https://nplatonov.github.io/site_libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
-<link href="https://nplatonov.github.io/site_libs/plotly-htmlwidgets-css-1.57.1/plotly-htmlwidgets.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/plotly-main-1.57.1/plotly-latest.min.js"></script>
+<link href="https://nplatonov.github.io/site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="https://nplatonov.github.io/site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="https://nplatonov.github.io/site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="https://nplatonov.github.io/site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -39,6 +40,7 @@
   ul.task-list{list-style: none;}
       .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
+
 
 
 
@@ -75,22 +77,22 @@
 </div>
 <div class="multirow">
 <div class="multicol" style="width: 210px">
-<div id="htmlwidget-927c617e57d5f18de637" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-927c617e57d5f18de637">{"x":{"value":1.7,"min":0,"max":100,"customSectors":[{"lo":0,"hi":100,"color":"success"}],"symbol":"%","label":"of total ArcNet\nPAC area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-52cbdf42a98913b0af00" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-52cbdf42a98913b0af00">{"x":{"value":29.3,"min":0,"max":100,"customSectors":[{"lo":0,"hi":100,"color":"success"}],"symbol":"%","label":"of the Largest\nPAC Area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-bd2a1ab26625b3e126a0" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-bd2a1ab26625b3e126a0">{"x":{"value":15.7,"min":0,"max":100,"customSectors":[{"lo":33.3,"hi":100,"color":"success"},{"lo":10,"hi":33.2,"color":"warning"},{"lo":0,"hi":9.9,"color":"danger"}],"symbol":"%","label":"covered by\nexisting protected areas","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-0cd38c396a32a6cfddcd" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-0cd38c396a32a6cfddcd">{"x":{"value":27,"min":0,"max":796,"customSectors":[{"lo":80,"hi":796,"color":"success"},{"lo":40,"hi":79,"color":"warning"},{"lo":0,"hi":39,"color":"danger"}],"symbol":"","label":"CFs\nin the selected PAC","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-7164d103648ba7cfc184" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-7164d103648ba7cfc184">{"x":{"value":1.7,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":0,"hi":100,"color":"rgba(63, 182, 24, 0.7)"}]},"symbol":"%","label":"of total ArcNet\nPAC area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0178c0d3966dac8adab1" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-0178c0d3966dac8adab1">{"x":{"value":29.3,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":0,"hi":100,"color":"rgba(63, 182, 24, 0.7)"}]},"symbol":"%","label":"of the Largest\nPAC Area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4ed82a7f015f2d00ef6d" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-4ed82a7f015f2d00ef6d">{"x":{"value":15.7,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":33.3,"hi":100,"color":"rgba(63, 182, 24, 0.7)"},{"lo":10,"hi":33.2,"color":"rgba(255, 117, 24, 0.7)"},{"lo":0,"hi":9.9,"color":"rgba(255, 0, 57, 0.7)"}]},"symbol":"%","label":"covered by\nexisting protected areas","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-482f5dd704157ed4c868" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-482f5dd704157ed4c868">{"x":{"value":27,"min":0,"max":796,"customSectors":{"percents":false,"ranges":[{"lo":80,"hi":796,"color":"rgba(63, 182, 24, 0.7)"},{"lo":40,"hi":79,"color":"rgba(255, 117, 24, 0.7)"},{"lo":0,"hi":39,"color":"rgba(255, 0, 57, 0.7)"}]},"symbol":"","label":"CFs\nin the selected PAC","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div id="htmlwidget-d98d122bfc4dc138d467" style="width:410px;height:260px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-d98d122bfc4dc138d467">{"x":{"visdat":{"5a87bab410d":["function () ","plotlyVisDat"]},"cur_data":"5a87bab410d","attrs":{"5a87bab410d":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"5a87bab410d.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"5a87bab410d.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":0,"l":0,"t":45,"r":0},"annotations":[{"text":"5.6 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Marine mammals","showarrow":false,"xanchor":"right"},{"text":"1 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Seabirds","showarrow":false,"xanchor":"right"},{"text":"2.1 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Fishes","showarrow":false,"xanchor":"right"},{"text":"4.9 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Sea ice biota","showarrow":false,"xanchor":"right"},{"text":"2 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Benthos","showarrow":false,"xanchor":"right"},{"text":"6.9 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Coastal features","showarrow":false,"xanchor":"right"}],"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.5},"xaxis":{"domain":[0,1],"automargin":true,"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.2},"x":0.3,"showticklabels":false,"showgrid":false,"showline":false,"zeroline":false,"visible":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Benthos","Coastal features","Fishes","Marine mammals","Sea ice biota","Seabirds"]},"barmode":"stack","showlegend":false,"hovermode":"closest"},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[0,0,0,0,0,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)","line":{"color":"rgba(31,119,180,1)"}},"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.0555555555555556,0.00961538461538462,0.0212765957446809,0.0487804878048781,0.0197628458498024,0.0689655172413793],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)","line":{"color":"rgba(255,127,14,1)"}},"type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.0444444444444445,0.0903846153846154,0.0787234042553192,0.051219512195122,0.0802371541501976,0.0310344827586207],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)","line":{"color":"rgba(44,160,44,1)"}},"type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-fc44bedbc580855be420" style="width:410px;height:260px;"></div>
+<script type="application/json" data-for="htmlwidget-fc44bedbc580855be420">{"x":{"visdat":{"f2417b12049":["function () ","plotlyVisDat"]},"cur_data":"f2417b12049","attrs":{"f2417b12049":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"f2417b12049.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"f2417b12049.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":0,"l":0,"t":45,"r":0},"annotations":[{"text":"5.6 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Marine mammals","showarrow":false,"xanchor":"right"},{"text":"1 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Seabirds","showarrow":false,"xanchor":"right"},{"text":"2.1 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Fishes","showarrow":false,"xanchor":"right"},{"text":"4.9 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Sea ice biota","showarrow":false,"xanchor":"right"},{"text":"2 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Benthos","showarrow":false,"xanchor":"right"},{"text":"6.9 %","xref":"xref","yref":"yref","x":0.101379310344828,"y":"Coastal features","showarrow":false,"xanchor":"right"}],"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.5},"xaxis":{"domain":[0,1],"automargin":true,"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.2},"x":0.3,"showticklabels":false,"showgrid":false,"showline":false,"zeroline":false,"visible":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Benthos","Coastal features","Fishes","Marine mammals","Sea ice biota","Seabirds"]},"barmode":"stack","showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":[0,0,0,0,0,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)","line":{"color":"rgba(31,119,180,1)"}},"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.0555555555555556,0.00961538461538462,0.0212765957446809,0.0487804878048781,0.0197628458498024,0.0689655172413793],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)","line":{"color":"rgba(255,127,14,1)"}},"type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.0444444444444445,0.0903846153846154,0.0787234042553192,0.051219512195122,0.0802371541501976,0.0310344827586207],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)","line":{"color":"rgba(44,160,44,1)"}},"type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 <div class="multirow" style="width: var(--multirowWidth);">
 <!-- :::{class=multirow style=""} -->
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#7E93E7FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#90A45EFF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 0
@@ -105,7 +107,7 @@ CFs entirely within the PAC area
 </div>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#57AFBCFF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#759BD4FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 6
@@ -122,7 +124,7 @@ CFs at least 25% within the PAC area
 <!-- ::: -->
 <!-- :::{class=multirow style=""} -->
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#8292E0FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#E37381FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 4
@@ -137,7 +139,7 @@ CFs with at least 50% of their target achieved in the PAC
 </div>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#CA71D1FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#5BB594FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 13
@@ -186,7 +188,7 @@ PAC’s Cont­ri­bu­tion to the Achie­ved Tar­get
 <a href=../cf/s0e1a3bc5.html>5087</a>
 </td>
 <td style="text-align:left;">
-Narwhal Northern Hudson Bay stock summer distribution
+Narwhal (<em>Monodon monoceros</em>), Northern Hudson Bay stock, summer grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 100.00%">87.0%</span>
@@ -206,7 +208,7 @@ Narwhal Northern Hudson Bay stock summer distribution
 <a href=../cf/s9ea52654.html>5088</a>
 </td>
 <td style="text-align:left;">
-Narwhal Northern Hudson Bay stock summer core distribution
+Narwhal (<em>Monodon monoceros</em>), Northern Hudson Bay stock, summer grounds / core area
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 84.59%">73.6%</span>
@@ -226,7 +228,7 @@ Narwhal Northern Hudson Bay stock summer core distribution
 <a href=../cf/sd05ce6a4.html>3127</a>
 </td>
 <td style="text-align:left;">
-Polynyas distribution in the Foxe Basin region
+Polynya biological communities, Foxe Basin
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 40.74%">35.4%</span>
@@ -246,7 +248,7 @@ Polynyas distribution in the Foxe Basin region
 <a href=../cf/s502d0ddb.html>9025</a>
 </td>
 <td style="text-align:left;">
-polar bear denning areas of FB (Foxe Basin) subpopulation
+Polar bear (<em>Ursus maritimus</em>), Foxe Basin subpopulation, denning grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 39.12%">34.0%</span>
@@ -266,7 +268,7 @@ polar bear denning areas of FB (Foxe Basin) subpopulation
 <a href=../cf/s8c150e75.html>9007</a>
 </td>
 <td style="text-align:left;">
-polar bear of the FB (Foxe Basin) subpopulation distribution
+Polar bear (<em>Ursus maritimus</em>), Foxe Basin subpopulation, home range
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 34.44%">29.9%</span>
@@ -286,7 +288,7 @@ polar bear of the FB (Foxe Basin) subpopulation distribution
 <a href=../cf/s99b2de4d.html>3053</a>
 </td>
 <td style="text-align:left;">
-Multiyear Ice distribution in September in the Hudson Bay LME
+Multiyear Ice biological communities, September, Hudson Bay
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 29.72%">25.8%</span>
@@ -306,7 +308,7 @@ Multiyear Ice distribution in September in the Hudson Bay LME
 <a href=../cf/sb9d9b2ee.html>1011</a>
 </td>
 <td style="text-align:left;">
-Atlantic Walrus haulouts in Nunavut and West Greenland
+Walrus (<em>Odobenus rosmarus rosmarus</em>) haulouts, Nunavut and West Greenland
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 24.00%">20.9%</span>
@@ -326,7 +328,7 @@ Atlantic Walrus haulouts in Nunavut and West Greenland
 <a href=../cf/s9f965a28.html>8024</a>
 </td>
 <td style="text-align:left;">
-intertidal zone of the Hudson Bay LME
+Biological communities, intertidal zone, Hudson Bay
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 22.69%">19.7%</span>
@@ -346,7 +348,7 @@ intertidal zone of the Hudson Bay LME
 <a href=../cf/s40e3fb35.html>3128</a>
 </td>
 <td style="text-align:left;">
-Polynyas distribution in the Western Hudson Bay region
+Polynya biological communities, western Hudson Bay
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 14.98%">13.0%</span>
@@ -366,7 +368,7 @@ Polynyas distribution in the Western Hudson Bay region
 <a href=../cf/s1b25e81f.html>6064</a>
 </td>
 <td style="text-align:left;">
-Common eider (Somateria mollissima sedentari) Hudson Bay breeding&amp;moulting grounds
+Common eider (<em>Somateria mollissima sedentari</em>) breeding / moulting grounds, Hudson Bay
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 12.42%">10.8%</span>
@@ -386,7 +388,7 @@ Common eider (Somateria mollissima sedentari) Hudson Bay breeding&amp;moulting g
 <a href=../cf/se6a8dd6e.html>7045</a>
 </td>
 <td style="text-align:left;">
-Fox Basin trnasitional zone
+Benthic communities, Transitional Zoogeographic zone, Fox Basin
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 11.06%">9.6%</span>
@@ -406,7 +408,7 @@ Fox Basin trnasitional zone
 <a href=../cf/s268bdcfe.html>3035</a>
 </td>
 <td style="text-align:left;">
-Marginal Ice Zone distribution in July in the Hudson Bay LME
+MIZ biological communities, July, Hudson Bay
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 9.45%">8.2%</span>
@@ -426,7 +428,7 @@ Marginal Ice Zone distribution in July in the Hudson Bay LME
 <a href=../cf/sdcea99f0.html>7169</a>
 </td>
 <td style="text-align:left;">
-IV.2.2. central Hudson Bay
+Benthic communities, IV.2.2. Central Hudson Bay
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 9.20%">8.0%</span>
@@ -446,7 +448,7 @@ IV.2.2. central Hudson Bay
 <a href=../cf/sbc2d1015.html>7170</a>
 </td>
 <td style="text-align:left;">
-IV.2.3. Hudson Bay slope
+Benthic communities, IV.2.3. Hudson Bay slope
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 8.55%">7.4%</span>
@@ -466,7 +468,7 @@ IV.2.3. Hudson Bay slope
 <a href=../cf/s19481f79.html>2022</a>
 </td>
 <td style="text-align:left;">
-Harp seal foraging areas in the Hudson Bay
+Harp seal (<em>Pagophilus groenlandicus</em>) feeding grounds, Hudson Bay
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 8.28%">7.2%</span>
@@ -486,7 +488,7 @@ Harp seal foraging areas in the Hudson Bay
 <a href=../cf/sa19d6db5.html>7139</a>
 </td>
 <td style="text-align:left;">
-III.1.1.6. Foxe Basin middle shelf
+Benthic communities, III.1.1.6. Foxe Basin middle shelf
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 7.92%">6.9%</span>
@@ -506,7 +508,7 @@ III.1.1.6. Foxe Basin middle shelf
 <a href=../cf/s39cbd215.html>1002</a>
 </td>
 <td style="text-align:left;">
-Atlantic Walrus Summer Distribution in Canada
+Walrus (<em>Odobenus rosmarus rosmarus</em>) summer grounds, Canadian Arctic Archipelago
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 6.79%">5.9%</span>
@@ -526,7 +528,7 @@ Atlantic Walrus Summer Distribution in Canada
 <a href=../cf/s7e977767.html>5065</a>
 </td>
 <td style="text-align:left;">
-Killer whale summer feeding areas in the North West Atlantic
+Orca (<em>Orcinus orca</em>) summer feeding grounds, western North Atlantic
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 6.77%">5.9%</span>
@@ -546,7 +548,7 @@ Killer whale summer feeding areas in the North West Atlantic
 <a href=../cf/sce430655.html>7028</a>
 </td>
 <td style="text-align:left;">
-Hudson Bay enclave
+Benthic communities, Hudson Bay Zoogeographic enclave
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 6.48%">5.6%</span>
@@ -566,7 +568,7 @@ Hudson Bay enclave
 <a href=../cf/sdf302143.html>4075</a>
 </td>
 <td style="text-align:left;">
-Fish zoogeography, Arctic Region, High-Arctic Shelf Province, Hudson District
+Fish communities, Hudson Zoogeographic District, High Arctic Shelf Province, Arctic Region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.46%">4.8%</span>
@@ -586,7 +588,7 @@ Fish zoogeography, Arctic Region, High-Arctic Shelf Province, Hudson District
 <a href=../cf/safc751e1.html>2048</a>
 </td>
 <td style="text-align:left;">
-Ringed seal whelping areas in the Hudson Bay area
+Ringed seal (<em>Phoca hispida</em>) whelping grounds, Hudson Bay area
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.42%">4.7%</span>
@@ -606,7 +608,7 @@ Ringed seal whelping areas in the Hudson Bay area
 <a href=../cf/sc06c1fe3.html>5103</a>
 </td>
 <td style="text-align:left;">
-Bowhead whale Baffin population spring-autumn distribution
+Bowhead whale (<em>Balaena mysticetus</em>), Baffin population, spring-autumn grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.42%">4.7%</span>
@@ -626,7 +628,7 @@ Bowhead whale Baffin population spring-autumn distribution
 <a href=../cf/sdc6b2d96.html>2010</a>
 </td>
 <td style="text-align:left;">
-Bearded seal whelping areas in the Hudson Bay
+Bearded seal (<em>Erignatus barbatus</em>) whelping grounds, Hudson Bay
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.40%">4.7%</span>
@@ -646,7 +648,7 @@ Bearded seal whelping areas in the Hudson Bay
 <a href=../cf/s0a56cf09.html>5039</a>
 </td>
 <td style="text-align:left;">
-Bowhead whale autumn concentrations in the Baffin Bay
+Bowhead whale (<em>Balaena mysticetus</em>), Baffin Bay population, autumn grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.05%">4.4%</span>
@@ -666,7 +668,7 @@ Bowhead whale autumn concentrations in the Baffin Bay
 <a href=../cf/s1f843ad3.html>8037</a>
 </td>
 <td style="text-align:left;">
-Salt marshes of the Hudson Bay LME
+Biological communities, salt marshes, Hudson Bay
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 4.80%">4.2%</span>
@@ -686,7 +688,7 @@ Salt marshes of the Hudson Bay LME
 <a href=../cf/sbc31205e.html>4031</a>
 </td>
 <td style="text-align:left;">
-Feeding area of the Brook Trout (Salvelinus fontinalis)
+Brook trout (<em>Salvelinus fontinalis</em>) feeding grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 4.35%">3.8%</span>
@@ -706,7 +708,7 @@ Feeding area of the Brook Trout (Salvelinus fontinalis)
 <a href=../cf/sa5b79532.html>2019</a>
 </td>
 <td style="text-align:left;">
-Harbour seal range in the North Atlantic region
+Harbour seal (<em>Phoca vitulina</em>) home range, North Atlantic
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.46%">3.0%</span>
@@ -724,7 +726,7 @@ Harbour seal range in the North Atlantic region
 </tbody>
 </table>
 <div style="font-size:70%;text-align:right;color:#bbb;">
-Updated: 2021-03-11 20:33
+Updated: 2023-01-25 20:53
 </div>
 </div>
 </div>

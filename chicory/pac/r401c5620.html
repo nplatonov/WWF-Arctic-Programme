@@ -14,21 +14,22 @@
 
 <title>ArcNet PAC 12</title>
 
-<script src="https://nplatonov.github.io/site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="https://nplatonov.github.io/site_libs/header-attrs-2.20/header-attrs.js"></script>
+<link href="https://nplatonov.github.io/site_libs/value-box-core-0.6.0/value-box.css" rel="stylesheet" />
 <link href="https://nplatonov.github.io/site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="https://nplatonov.github.io/site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="https://nplatonov.github.io/site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
 <script src="https://nplatonov.github.io/site_libs/raphael-2.1.4/raphael-2.1.4.min.js"></script>
 <link href="https://nplatonov.github.io/site_libs/justgage-1.2.2.1/justgage.css" rel="stylesheet" />
 <script src="https://nplatonov.github.io/site_libs/justgage-1.2.2.1/justgage.js"></script>
-<script src="https://nplatonov.github.io/site_libs/gauge-binding-0.5.2/gauge.js"></script>
-<script src="https://nplatonov.github.io/site_libs/jquery-3.5.1/jquery.min.js"></script>
-<script src="https://nplatonov.github.io/site_libs/plotly-binding-4.9.3/plotly.js"></script>
+<script src="https://nplatonov.github.io/site_libs/gauge-binding-0.6.0/gauge.js"></script>
+<script src="https://nplatonov.github.io/site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://nplatonov.github.io/site_libs/plotly-binding-4.10.1/plotly.js"></script>
 <script src="https://nplatonov.github.io/site_libs/typedarray-0.1/typedarray.min.js"></script>
-<link href="https://nplatonov.github.io/site_libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
-<link href="https://nplatonov.github.io/site_libs/plotly-htmlwidgets-css-1.57.1/plotly-htmlwidgets.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/plotly-main-1.57.1/plotly-latest.min.js"></script>
+<link href="https://nplatonov.github.io/site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="https://nplatonov.github.io/site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="https://nplatonov.github.io/site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="https://nplatonov.github.io/site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -39,6 +40,7 @@
   ul.task-list{list-style: none;}
       .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
+
 
 
 
@@ -75,22 +77,22 @@
 </div>
 <div class="multirow">
 <div class="multicol" style="width: 210px">
-<div id="htmlwidget-8693ccf84b5222418242" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-8693ccf84b5222418242">{"x":{"value":1.39,"min":0,"max":100,"customSectors":[{"lo":0,"hi":100,"color":"success"}],"symbol":"%","label":"of total ArcNet\nPAC area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-274574cec9b9186a1290" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-274574cec9b9186a1290">{"x":{"value":23.9,"min":0,"max":100,"customSectors":[{"lo":0,"hi":100,"color":"success"}],"symbol":"%","label":"of the Largest\nPAC Area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-4eee44a74ea29e3add1b" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-4eee44a74ea29e3add1b">{"x":{"value":14.8,"min":0,"max":100,"customSectors":[{"lo":33.3,"hi":100,"color":"success"},{"lo":10,"hi":33.2,"color":"warning"},{"lo":0,"hi":9.9,"color":"danger"}],"symbol":"%","label":"covered by\nexisting protected areas","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-c294f3442dea8fd32cc9" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-c294f3442dea8fd32cc9">{"x":{"value":35,"min":0,"max":796,"customSectors":[{"lo":80,"hi":796,"color":"success"},{"lo":40,"hi":79,"color":"warning"},{"lo":0,"hi":39,"color":"danger"}],"symbol":"","label":"CFs\nin the selected PAC","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-e0e0524eea5bd7985fd7" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-e0e0524eea5bd7985fd7">{"x":{"value":1.39,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":0,"hi":100,"color":"rgba(63, 182, 24, 0.7)"}]},"symbol":"%","label":"of total ArcNet\nPAC area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-f53d0425c6a860ed147b" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-f53d0425c6a860ed147b">{"x":{"value":23.9,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":0,"hi":100,"color":"rgba(63, 182, 24, 0.7)"}]},"symbol":"%","label":"of the Largest\nPAC Area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-d8541d5e621ad73e2fc7" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-d8541d5e621ad73e2fc7">{"x":{"value":14.8,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":33.3,"hi":100,"color":"rgba(63, 182, 24, 0.7)"},{"lo":10,"hi":33.2,"color":"rgba(255, 117, 24, 0.7)"},{"lo":0,"hi":9.9,"color":"rgba(255, 0, 57, 0.7)"}]},"symbol":"%","label":"covered by\nexisting protected areas","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-72241bc7a2462f0eefde" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-72241bc7a2462f0eefde">{"x":{"value":35,"min":0,"max":796,"customSectors":{"percents":false,"ranges":[{"lo":80,"hi":796,"color":"rgba(63, 182, 24, 0.7)"},{"lo":40,"hi":79,"color":"rgba(255, 117, 24, 0.7)"},{"lo":0,"hi":39,"color":"rgba(255, 0, 57, 0.7)"}]},"symbol":"","label":"CFs\nin the selected PAC","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div id="htmlwidget-2d15446c027a9ebc1d8a" style="width:410px;height:260px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2d15446c027a9ebc1d8a">{"x":{"visdat":{"23f45cf3360a":["function () ","plotlyVisDat"]},"cur_data":"23f45cf3360a","attrs":{"23f45cf3360a":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"23f45cf3360a.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"23f45cf3360a.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":0,"l":0,"t":45,"r":0},"annotations":[{"text":"2.1 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Marine mammals","showarrow":false,"xanchor":"right"},{"text":"5.8 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Seabirds","showarrow":false,"xanchor":"right"},{"text":"10.6 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Fishes","showarrow":false,"xanchor":"right"},{"text":"4.9 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Sea ice biota","showarrow":false,"xanchor":"right"},{"text":"2.8 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Benthos","showarrow":false,"xanchor":"right"},{"text":"10.3 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Coastal features","showarrow":false,"xanchor":"right"}],"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.5},"xaxis":{"domain":[0,1],"automargin":true,"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.2},"x":0.3,"showticklabels":false,"showgrid":false,"showline":false,"zeroline":false,"visible":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Benthos","Coastal features","Fishes","Marine mammals","Sea ice biota","Seabirds"]},"barmode":"stack","showlegend":false,"hovermode":"closest"},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[0,0,0.106382978723404,0,0,0.103448275862069],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)","line":{"color":"rgba(31,119,180,1)"}},"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.0213675213675214,0.0576923076923077,0,0.0487804878048781,0.0276679841897233,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)","line":{"color":"rgba(255,127,14,1)"}},"type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.0786324786324786,0.0423076923076923,0,0.051219512195122,0.0723320158102767,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)","line":{"color":"rgba(44,160,44,1)"}},"type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-77a170e08f8eb373a26c" style="width:410px;height:260px;"></div>
+<script type="application/json" data-for="htmlwidget-77a170e08f8eb373a26c">{"x":{"visdat":{"13401cc07441":["function () ","plotlyVisDat"]},"cur_data":"13401cc07441","attrs":{"13401cc07441":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"13401cc07441.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"13401cc07441.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":0,"l":0,"t":45,"r":0},"annotations":[{"text":"2.1 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Marine mammals","showarrow":false,"xanchor":"right"},{"text":"5.8 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Seabirds","showarrow":false,"xanchor":"right"},{"text":"10.6 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Fishes","showarrow":false,"xanchor":"right"},{"text":"4.9 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Sea ice biota","showarrow":false,"xanchor":"right"},{"text":"2.8 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Benthos","showarrow":false,"xanchor":"right"},{"text":"10.3 %","xref":"xref","yref":"yref","x":0.156382978723404,"y":"Coastal features","showarrow":false,"xanchor":"right"}],"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.5},"xaxis":{"domain":[0,1],"automargin":true,"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.2},"x":0.3,"showticklabels":false,"showgrid":false,"showline":false,"zeroline":false,"visible":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Benthos","Coastal features","Fishes","Marine mammals","Sea ice biota","Seabirds"]},"barmode":"stack","showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":[0,0,0.106382978723404,0,0,0.103448275862069],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)","line":{"color":"rgba(31,119,180,1)"}},"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.0213675213675214,0.0576923076923077,0,0.0487804878048781,0.0276679841897233,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)","line":{"color":"rgba(255,127,14,1)"}},"type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.0786324786324786,0.0423076923076923,0,0.051219512195122,0.0723320158102767,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)","line":{"color":"rgba(44,160,44,1)"}},"type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 <div class="multirow" style="width: var(--multirowWidth);">
 <!-- :::{class=multirow style=""} -->
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#B4915EFF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#5FA5DEFF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 1
@@ -105,7 +107,7 @@ CFs entirely within the PAC area
 </div>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#D47791FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#A99D3CFF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 5
@@ -122,7 +124,7 @@ CFs at least 25% within the PAC area
 <!-- ::: -->
 <!-- :::{class=multirow style=""} -->
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#B67BD0FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#B99058FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 8
@@ -137,7 +139,7 @@ CFs with at least 50% of their target achieved in the PAC
 </div>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#B39065FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#CF75A8FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 16
@@ -186,7 +188,7 @@ PAC’s Cont­ri­bu­tion to the Achie­ved Tar­get
 <a href=../cf/s922b3996.html>7244</a>
 </td>
 <td style="text-align:left;">
-Laptev Sea kelp patches (22,23)
+Kelp forests, Laptev Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 100.00%">100.0%</span>
@@ -206,7 +208,7 @@ Laptev Sea kelp patches (22,23)
 <a href=../cf/sfc7564d7.html>7008</a>
 </td>
 <td style="text-align:left;">
-Central Laptev area of increased benthic biomass
+Benthic biomass hotspot, Central Laptev Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 72.86%">72.9%</span>
@@ -226,7 +228,7 @@ Central Laptev area of increased benthic biomass
 <a href=../cf/s8b1b41e8.html>3112</a>
 </td>
 <td style="text-align:left;">
-Polynyas distribution in the Eastern Laptev Sea region
+Polynya biological communities, eastern Laptev Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 31.39%">31.4%</span>
@@ -246,7 +248,7 @@ Polynyas distribution in the Eastern Laptev Sea region
 <a href=../cf/s01f2cf8b.html>8023</a>
 </td>
 <td style="text-align:left;">
-Laptev Sea estuaries
+Biological communities, estuaries, Laptev Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 31.29%">31.3%</span>
@@ -266,7 +268,7 @@ Laptev Sea estuaries
 <a href=../cf/s868d6b69.html>8034</a>
 </td>
 <td style="text-align:left;">
-Salt marshes of the Laptev Sea LME
+Biological communities, salt marshes, Laptev Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 26.14%">26.1%</span>
@@ -286,7 +288,7 @@ Salt marshes of the Laptev Sea LME
 <a href=../cf/s41b30ccd.html>4095</a>
 </td>
 <td style="text-align:left;">
-Estuarian (Taymyr-Lena) brackish –water fish complex;
+Brackish water fish complex, Khatanga-Lena rivers estuaries
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 23.63%">23.6%</span>
@@ -306,7 +308,7 @@ Estuarian (Taymyr-Lena) brackish –water fish complex;
 <a href=../cf/sc9b34661.html>1014</a>
 </td>
 <td style="text-align:left;">
-Laptev Walrus Whelping patches
+Walrus (<em>Odobaenus rosmarus divergens</em>) Laptev population, winter grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 22.52%">22.5%</span>
@@ -326,7 +328,7 @@ Laptev Walrus Whelping patches
 <a href=../cf/s82cb0188.html>6080</a>
 </td>
 <td style="text-align:left;">
-Thick-billed murre (Uria lomvia eleonorae) breeding colonies
+Thick-billed murre (<em>Uria lomvia eleonorae</em>) breeding colonies
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 22.22%">22.2%</span>
@@ -346,7 +348,7 @@ Thick-billed murre (Uria lomvia eleonorae) breeding colonies
 <a href=../cf/sc146d41b.html>4061</a>
 </td>
 <td style="text-align:left;">
-Feeding/nursery area of the Siberian sturgeon (Acipenser baerii)
+Siberian sturgeon (<em>Acipenser baerii</em>) feeding / nursery grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 19.13%">19.1%</span>
@@ -366,7 +368,7 @@ Feeding/nursery area of the Siberian sturgeon (Acipenser baerii)
 <a href=../cf/sed1a738a.html>7114</a>
 </td>
 <td style="text-align:left;">
-II.1.1.8. Laptev inner shelf
+Benthic communities, II.1.1.8. Laptev Sea inner shelf
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 17.79%">17.8%</span>
@@ -386,7 +388,7 @@ II.1.1.8. Laptev inner shelf
 <a href=../cf/s737ee629.html>7113</a>
 </td>
 <td style="text-align:left;">
-II.1.1.7. Laptev shelf coastal domain
+Benthic communities, II.1.1.7. Laptev Sea shelf coastal domain
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 17.16%">17.2%</span>
@@ -406,7 +408,7 @@ II.1.1.7. Laptev shelf coastal domain
 <a href=../cf/s4cbd25ae.html>6104</a>
 </td>
 <td style="text-align:left;">
-Thick-billed murre (Uria lomvia eleonorae) breeding colonies buffer feeding area
+Thick-billed murre (<em>Uria lomvia eleonorae</em>) breeding colonies foraging range buffer
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 16.90%">16.9%</span>
@@ -426,7 +428,7 @@ Thick-billed murre (Uria lomvia eleonorae) breeding colonies buffer feeding area
 <a href=../cf/s069f0b92.html>8027</a>
 </td>
 <td style="text-align:left;">
-intertidal zone of the Laptev Sea LME
+Biological communities, intertidal zone, Laptev Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 16.12%">16.1%</span>
@@ -446,7 +448,7 @@ intertidal zone of the Laptev Sea LME
 <a href=../cf/s9a1d431c.html>7115</a>
 </td>
 <td style="text-align:left;">
-II.1.1.9. Laptev middle shelf
+Benthic communities, II.1.1.9. Laptev Sea middle shelf
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 15.05%">15.1%</span>
@@ -466,7 +468,7 @@ II.1.1.9. Laptev middle shelf
 <a href=../cf/s41219102.html>3028</a>
 </td>
 <td style="text-align:left;">
-Marginal Ice Zone distribution in April in the Laptev Sea LME
+MIZ biological communities, April, Laptev Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 12.60%">12.6%</span>
@@ -486,7 +488,7 @@ Marginal Ice Zone distribution in April in the Laptev Sea LME
 <a href=../cf/s7317f380.html>3008</a>
 </td>
 <td style="text-align:left;">
-Fast ice distribution in the Eastern part of the Laptev Sea and the East-Siberian Sea
+Fast ice biological communities, Eastern part of the Laptev Sea and the East-Siberian Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 10.74%">10.7%</span>
@@ -506,7 +508,7 @@ Fast ice distribution in the Eastern part of the Laptev Sea and the East-Siberia
 <a href=../cf/s45627c2c.html>2013</a>
 </td>
 <td style="text-align:left;">
-Bearded seal whelping areas in the Laptev Sea
+Bearded seal (<em>Erignatus barbatus</em>) whelping grounds, Laptev Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 9.32%">9.3%</span>
@@ -526,7 +528,7 @@ Bearded seal whelping areas in the Laptev Sea
 <a href=../cf/s2f3d90d5.html>3039</a>
 </td>
 <td style="text-align:left;">
-Marginal Ice Zone distribution in July in the Laptev Sea LME
+MIZ biological communities, July, Laptev Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 8.81%">8.8%</span>
@@ -546,7 +548,7 @@ Marginal Ice Zone distribution in July in the Laptev Sea LME
 <a href=../cf/s2255b5fd.html>4036</a>
 </td>
 <td style="text-align:left;">
-Distribution of the Borisov’s Arctic cod (Arctogadus borisovi)
+Borisov’s Arctic cod (<em>Arctogadus borisovi</em>) range
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 8.64%">8.6%</span>
@@ -566,7 +568,7 @@ Distribution of the Borisov’s Arctic cod (Arctogadus borisovi)
 <a href=../cf/sa9e94ba9.html>7035</a>
 </td>
 <td style="text-align:left;">
-Siberian shelf region
+Benthic communities, Siberian shelf Zoogeographic region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 8.60%">8.6%</span>
@@ -586,7 +588,7 @@ Siberian shelf region
 <a href=../cf/s57d7d3c2.html>1013</a>
 </td>
 <td style="text-align:left;">
-Laptev Walrus haulouts
+Walrus (<em>Odobaenus rosmarus divergens</em>) Laptev population, haulouts
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 8.57%">8.6%</span>
@@ -606,7 +608,7 @@ Laptev Walrus haulouts
 <a href=../cf/s240e8a57.html>6011</a>
 </td>
 <td style="text-align:left;">
-Brent goose (Branta bernicla nigricans) Asian breeding&amp;moulting grounds
+Brent goose (<em>Branta bernicla nigricans</em>) breeding / moulting grounds, Asia
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.50%">5.5%</span>
@@ -626,7 +628,7 @@ Brent goose (Branta bernicla nigricans) Asian breeding&amp;moulting grounds
 <a href=../cf/s5e14ba0b.html>6045</a>
 </td>
 <td style="text-align:left;">
-Stellers eider (Polysticta stelleri) Pacific moulting&amp;migration stopovers
+Stellers eider (<em>Polysticta stelleri</em>) moulting / migration stopovers, Pacific
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 4.98%">5.0%</span>
@@ -646,7 +648,7 @@ Stellers eider (Polysticta stelleri) Pacific moulting&amp;migration stopovers
 <a href=../cf/s313e406f.html>4077</a>
 </td>
 <td style="text-align:left;">
-Fish zoogeography, Arctic Region, High-Arctic Shelf Province, Laptev – East-Siberian District
+Fish communities, Laptev - East-Siberian Seas Zoogeographic District, High Arctic Shelf Province, Arctic Region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 4.95%">5.0%</span>
@@ -666,7 +668,7 @@ Fish zoogeography, Arctic Region, High-Arctic Shelf Province, Laptev – East-Si
 <a href=../cf/seec0cb39.html>4008</a>
 </td>
 <td style="text-align:left;">
-Feeding / nursery area of the Arctic Cisco (Coregonus autumnalis), Eurasian populations
+Arctic cisco (<em>Coregonus autumnalis</em>), Eurasian populations, feeding / nursery grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 4.01%">4.0%</span>
@@ -686,7 +688,7 @@ Feeding / nursery area of the Arctic Cisco (Coregonus autumnalis), Eurasian popu
 <a href=../cf/sf900724a.html>4010</a>
 </td>
 <td style="text-align:left;">
-Feeding area of the Muksun (Coregonus muksun)
+Muksun (<em>Coregonus muksun</em>) feeding grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.79%">3.8%</span>
@@ -706,7 +708,7 @@ Feeding area of the Muksun (Coregonus muksun)
 <a href=../cf/sa3712eb5.html>6006</a>
 </td>
 <td style="text-align:left;">
-Brent goose (Branta bernicla bernicla) breeding&amp;moulting grounds
+Dark-bellied brent goose (<em>Branta bernicla bernicla</em>) breeding / moulting grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.60%">3.6%</span>
@@ -726,7 +728,7 @@ Brent goose (Branta bernicla bernicla) breeding&amp;moulting grounds
 <a href=../cf/s9c5a4cfd.html>6073</a>
 </td>
 <td style="text-align:left;">
-King eider (Somateria spectabilis) Pacific moulting&amp;migration stopovers
+King eider (<em>Somateria spectabilis</em>) moulting / migration stopovers, Pacific
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.19%">3.2%</span>
@@ -746,7 +748,7 @@ King eider (Somateria spectabilis) Pacific moulting&amp;migration stopovers
 <a href=../cf/s896a86c5.html>4015</a>
 </td>
 <td style="text-align:left;">
-Feeding area of the Broad whitefish (Coregonus nasus), American populations
+Broad whitefish (<em>Coregonus nasus</em>), American populations, feeding grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.13%">3.1%</span>
@@ -766,7 +768,7 @@ Feeding area of the Broad whitefish (Coregonus nasus), American populations
 <a href=../cf/sd540e590.html>4024</a>
 </td>
 <td style="text-align:left;">
-Distribution of the Chum Salmon (Oncorhynchus keta)
+Chum Salmon (<em>Oncorhynchus keta</em>) home range
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.13%">3.1%</span>
@@ -786,7 +788,7 @@ Distribution of the Chum Salmon (Oncorhynchus keta)
 <a href=../cf/sfe6db653.html>4014</a>
 </td>
 <td style="text-align:left;">
-Feeding area of the Siberian whitefish (Coregonus pidschian)
+Siberian whitefish (<em>Coregonus pidschian</em>) feeding grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 2.51%">2.5%</span>
@@ -806,7 +808,7 @@ Feeding area of the Siberian whitefish (Coregonus pidschian)
 <a href=../cf/sc6c3b1cd.html>5007</a>
 </td>
 <td style="text-align:left;">
-Beluga of the Barents-Kara-Laptev Sea stock general distribution
+Beluga (<em>Delphinapterus leucas</em>), Barents-Kara-Laptev Seas stock, home range
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 2.40%">2.4%</span>
@@ -826,7 +828,7 @@ Beluga of the Barents-Kara-Laptev Sea stock general distribution
 <a href=../cf/sa52a111f.html>4021</a>
 </td>
 <td style="text-align:left;">
-Feeding area of the Inconnu (Stenodus leucichthys nelma), Euro-Asian populations
+Inconnu (<em>Stenodus leucichthys nelma</em>), Eurasian populations, feeding grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 2.39%">2.4%</span>
@@ -846,7 +848,7 @@ Feeding area of the Inconnu (Stenodus leucichthys nelma), Euro-Asian populations
 <a href=../cf/se564cbbb.html>9012</a>
 </td>
 <td style="text-align:left;">
-polar bear of the LV (Laptev Sea) subpopulation distribution
+Polar bear (<em>Ursus maritimus</em>), Laptev Sea subpopulation, home range
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 2.35%">2.4%</span>
@@ -866,7 +868,7 @@ polar bear of the LV (Laptev Sea) subpopulation distribution
 <a href=../cf/s29fb2b52.html>7026</a>
 </td>
 <td style="text-align:left;">
-Eurasian shelf region
+Benthic communities, Eurasian shelf Zoogeographic region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 1.20%">1.2%</span>
@@ -884,7 +886,7 @@ Eurasian shelf region
 </tbody>
 </table>
 <div style="font-size:70%;text-align:right;color:#bbb;">
-Updated: 2021-03-11 20:31
+Updated: 2023-01-25 20:47
 </div>
 </div>
 </div>

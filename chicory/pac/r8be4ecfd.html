@@ -14,21 +14,22 @@
 
 <title>ArcNet PAC 28</title>
 
-<script src="https://nplatonov.github.io/site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="https://nplatonov.github.io/site_libs/header-attrs-2.20/header-attrs.js"></script>
+<link href="https://nplatonov.github.io/site_libs/value-box-core-0.6.0/value-box.css" rel="stylesheet" />
 <link href="https://nplatonov.github.io/site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="https://nplatonov.github.io/site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="https://nplatonov.github.io/site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
 <script src="https://nplatonov.github.io/site_libs/raphael-2.1.4/raphael-2.1.4.min.js"></script>
 <link href="https://nplatonov.github.io/site_libs/justgage-1.2.2.1/justgage.css" rel="stylesheet" />
 <script src="https://nplatonov.github.io/site_libs/justgage-1.2.2.1/justgage.js"></script>
-<script src="https://nplatonov.github.io/site_libs/gauge-binding-0.5.2/gauge.js"></script>
-<script src="https://nplatonov.github.io/site_libs/jquery-3.5.1/jquery.min.js"></script>
-<script src="https://nplatonov.github.io/site_libs/plotly-binding-4.9.3/plotly.js"></script>
+<script src="https://nplatonov.github.io/site_libs/gauge-binding-0.6.0/gauge.js"></script>
+<script src="https://nplatonov.github.io/site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://nplatonov.github.io/site_libs/plotly-binding-4.10.1/plotly.js"></script>
 <script src="https://nplatonov.github.io/site_libs/typedarray-0.1/typedarray.min.js"></script>
-<link href="https://nplatonov.github.io/site_libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
-<link href="https://nplatonov.github.io/site_libs/plotly-htmlwidgets-css-1.57.1/plotly-htmlwidgets.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/plotly-main-1.57.1/plotly-latest.min.js"></script>
+<link href="https://nplatonov.github.io/site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="https://nplatonov.github.io/site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="https://nplatonov.github.io/site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="https://nplatonov.github.io/site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -39,6 +40,7 @@
   ul.task-list{list-style: none;}
       .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
+
 
 
 
@@ -75,22 +77,22 @@
 </div>
 <div class="multirow">
 <div class="multicol" style="width: 210px">
-<div id="htmlwidget-0c4c54cf66dd377289f5" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-0c4c54cf66dd377289f5">{"x":{"value":1.05,"min":0,"max":100,"customSectors":[{"lo":0,"hi":100,"color":"success"}],"symbol":"%","label":"of total ArcNet\nPAC area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-62500fa0905acd8e154f" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-62500fa0905acd8e154f">{"x":{"value":18,"min":0,"max":100,"customSectors":[{"lo":0,"hi":100,"color":"success"}],"symbol":"%","label":"of the Largest\nPAC Area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-87dcca15c9a1dfb13ab8" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-87dcca15c9a1dfb13ab8">{"x":{"value":0,"min":0,"max":100,"customSectors":[{"lo":33.3,"hi":100,"color":"success"},{"lo":10,"hi":33.2,"color":"warning"},{"lo":0,"hi":9.9,"color":"danger"}],"symbol":"%","label":"covered by\nexisting protected areas","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-f596601066aa442b280e" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-f596601066aa442b280e">{"x":{"value":16,"min":0,"max":796,"customSectors":[{"lo":80,"hi":796,"color":"success"},{"lo":40,"hi":79,"color":"warning"},{"lo":0,"hi":39,"color":"danger"}],"symbol":"","label":"CFs\nin the selected PAC","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4de3857ab895e2850f45" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-4de3857ab895e2850f45">{"x":{"value":1.05,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":0,"hi":100,"color":"rgba(63, 182, 24, 0.7)"}]},"symbol":"%","label":"of total ArcNet\nPAC area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-2270c97b7419090f4370" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-2270c97b7419090f4370">{"x":{"value":18,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":0,"hi":100,"color":"rgba(63, 182, 24, 0.7)"}]},"symbol":"%","label":"of the Largest\nPAC Area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-fc4cf42208f5349f6c6a" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-fc4cf42208f5349f6c6a">{"x":{"value":0,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":33.3,"hi":100,"color":"rgba(63, 182, 24, 0.7)"},{"lo":10,"hi":33.2,"color":"rgba(255, 117, 24, 0.7)"},{"lo":0,"hi":9.9,"color":"rgba(255, 0, 57, 0.7)"}]},"symbol":"%","label":"covered by\nexisting protected areas","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a89e6892b7cb07ab1db8" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-a89e6892b7cb07ab1db8">{"x":{"value":16,"min":0,"max":796,"customSectors":{"percents":false,"ranges":[{"lo":80,"hi":796,"color":"rgba(63, 182, 24, 0.7)"},{"lo":40,"hi":79,"color":"rgba(255, 117, 24, 0.7)"},{"lo":0,"hi":39,"color":"rgba(255, 0, 57, 0.7)"}]},"symbol":"","label":"CFs\nin the selected PAC","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div id="htmlwidget-5c36f9bbdba03dbc53e9" style="width:410px;height:260px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-5c36f9bbdba03dbc53e9">{"x":{"visdat":{"f245bfc4f81":["function () ","plotlyVisDat"]},"cur_data":"f245bfc4f81","attrs":{"f245bfc4f81":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"f245bfc4f81.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"f245bfc4f81.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":0,"l":0,"t":45,"r":0},"annotations":[{"text":"0 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Marine mammals","showarrow":false,"xanchor":"right"},{"text":"0 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Seabirds","showarrow":false,"xanchor":"right"},{"text":"0 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Fishes","showarrow":false,"xanchor":"right"},{"text":"1.2 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Sea ice biota","showarrow":false,"xanchor":"right"},{"text":"5.9 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Benthos","showarrow":false,"xanchor":"right"},{"text":"0 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Coastal features","showarrow":false,"xanchor":"right"}],"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.5},"xaxis":{"domain":[0,1],"automargin":true,"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.2},"x":0.3,"showticklabels":false,"showgrid":false,"showline":false,"zeroline":false,"visible":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Benthos","Coastal features","Fishes","Marine mammals","Sea ice biota","Seabirds"]},"barmode":"stack","showlegend":false,"hovermode":"closest"},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[0,0,0,0,0,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)","line":{"color":"rgba(31,119,180,1)"}},"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0,0,0,0.0121951219512195,0.0592885375494071,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)","line":{"color":"rgba(255,127,14,1)"}},"type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.1,0.1,0.1,0.0878048780487805,0.0407114624505929,0.1],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)","line":{"color":"rgba(44,160,44,1)"}},"type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-b92ca2f400a76ec59997" style="width:410px;height:260px;"></div>
+<script type="application/json" data-for="htmlwidget-b92ca2f400a76ec59997">{"x":{"visdat":{"42a07a444f6":["function () ","plotlyVisDat"]},"cur_data":"42a07a444f6","attrs":{"42a07a444f6":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"42a07a444f6.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"42a07a444f6.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":0,"l":0,"t":45,"r":0},"annotations":[{"text":"0 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Marine mammals","showarrow":false,"xanchor":"right"},{"text":"0 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Seabirds","showarrow":false,"xanchor":"right"},{"text":"0 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Fishes","showarrow":false,"xanchor":"right"},{"text":"1.2 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Sea ice biota","showarrow":false,"xanchor":"right"},{"text":"5.9 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Benthos","showarrow":false,"xanchor":"right"},{"text":"0 %","xref":"xref","yref":"yref","x":0.0871541501976285,"y":"Coastal features","showarrow":false,"xanchor":"right"}],"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.5},"xaxis":{"domain":[0,1],"automargin":true,"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.2},"x":0.3,"showticklabels":false,"showgrid":false,"showline":false,"zeroline":false,"visible":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Benthos","Coastal features","Fishes","Marine mammals","Sea ice biota","Seabirds"]},"barmode":"stack","showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":[0,0,0,0,0,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)","line":{"color":"rgba(31,119,180,1)"}},"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0,0,0,0.0121951219512195,0.0592885375494071,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)","line":{"color":"rgba(255,127,14,1)"}},"type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.1,0.1,0.1,0.0878048780487805,0.0407114624505929,0.1],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)","line":{"color":"rgba(44,160,44,1)"}},"type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 <div class="multirow" style="width: var(--multirowWidth);">
 <!-- :::{class=multirow style=""} -->
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#7FAC60FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#54B990FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 3
@@ -105,7 +107,7 @@ CFs entirely within the PAC area
 </div>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#8A8BEFFF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#6EB26EFF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 12
@@ -122,7 +124,7 @@ CFs at least 25% within the PAC area
 <!-- ::: -->
 <!-- :::{class=multirow style=""} -->
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#CD70C9FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#60BA67FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 10
@@ -137,7 +139,7 @@ CFs with at least 50% of their target achieved in the PAC
 </div>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#85AE43FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#46BCA4FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 13
@@ -186,7 +188,7 @@ PAC’s Cont­ri­bu­tion to the Achie­ved Tar­get
 <a href=../cf/s55a90d0d.html>7191</a>
 </td>
 <td style="text-align:left;">
-VI.2.2. Terraces
+Benthic communities, VI.2.2. Gakkerl Ridge and Ermak Plateau terraces
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 100.00%">100.0%</span>
@@ -206,7 +208,7 @@ VI.2.2. Terraces
 <a href=../cf/sf605a004.html>7059</a>
 </td>
 <td style="text-align:left;">
-central rift mountains of the Gakkel Ridge
+Biological communities, Gakkel Ridge central rift mountains
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 100.00%">100.0%</span>
@@ -226,7 +228,7 @@ central rift mountains of the Gakkel Ridge
 <a href=../cf/sd3f37bf5.html>7061</a>
 </td>
 <td style="text-align:left;">
-east rift mountains of the Gakkel Ridge
+Biological communities, Gakkel Ridge eastern rift mountains
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 100.00%">100.0%</span>
@@ -246,7 +248,7 @@ east rift mountains of the Gakkel Ridge
 <a href=../cf/s3dfd1ad9.html>7063</a>
 </td>
 <td style="text-align:left;">
-west rift mountains of the Gakkel Ridge
+Biological communities, Gakkel Ridge western rift mountains
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 98.65%">98.6%</span>
@@ -266,7 +268,7 @@ west rift mountains of the Gakkel Ridge
 <a href=../cf/s11bd8d03.html>7057</a>
 </td>
 <td style="text-align:left;">
-vents
+Biological communities, vents
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 90.91%">90.9%</span>
@@ -286,7 +288,7 @@ vents
 <a href=../cf/sa4f44b63.html>7060</a>
 </td>
 <td style="text-align:left;">
-east flank mountains of the Gakkel Ridge
+Biological communities, Gakkel Ridge eastern flank mountains
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 86.36%">86.4%</span>
@@ -306,7 +308,7 @@ east flank mountains of the Gakkel Ridge
 <a href=../cf/s81029092.html>7058</a>
 </td>
 <td style="text-align:left;">
-central flank mountains of the Gakkel Ridge
+Biological communities, Gakkel Ridge central flank mountains
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 82.05%">82.1%</span>
@@ -326,7 +328,7 @@ central flank mountains of the Gakkel Ridge
 <a href=../cf/s4afa2a4f.html>7062</a>
 </td>
 <td style="text-align:left;">
-west flank mountains of the Gakkel Ridge
+Biological communities, Gakkel Ridge western flank mountains
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 80.77%">80.8%</span>
@@ -346,7 +348,7 @@ west flank mountains of the Gakkel Ridge
 <a href=../cf/s25c3f982.html>7194</a>
 </td>
 <td style="text-align:left;">
-VI.2.6. Rift valleys
+Benthic communities, VI.2.6. Gakkerl Ridge and Ermak Plateau rift valleys
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 65.18%">65.2%</span>
@@ -366,7 +368,7 @@ VI.2.6. Rift valleys
 <a href=../cf/scca05cb7.html>7192</a>
 </td>
 <td style="text-align:left;">
-VI.2.3. Ridges
+Benthic communities, VI.2.3. Gakkerl Ridge and Ermak Plateau ridges
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 49.77%">49.8%</span>
@@ -386,7 +388,7 @@ VI.2.3. Ridges
 <a href=../cf/sbba76c21.html>7193</a>
 </td>
 <td style="text-align:left;">
-VI.2.4. Spreading ridges
+Benthic communities, VI.2.4. Gakkerl Ridge and Ermak Plateau spreading ridges
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 38.05%">38.1%</span>
@@ -406,7 +408,7 @@ VI.2.4. Spreading ridges
 <a href=../cf/sb2f69827.html>7178</a>
 </td>
 <td style="text-align:left;">
-VII.2.4. Abyssal mountains
+Benthic communities, VII.2.4. Amundsen and Nansen basins abyssal mountains
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 25.88%">25.9%</span>
@@ -426,7 +428,7 @@ VII.2.4. Abyssal mountains
 <a href=../cf/s52c4c914.html>7195</a>
 </td>
 <td style="text-align:left;">
-VI.2.7. Canyons
+Benthic communities, VI.2.7. Gakkerl Ridge and Ermak Plateau canyons
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 14.58%">14.6%</span>
@@ -446,7 +448,7 @@ VI.2.7. Canyons
 <a href=../cf/s75d14807.html>7017</a>
 </td>
 <td style="text-align:left;">
-Amundsen and Nansen Basins abyssal region
+Benthic communities, Amundsen and Nansen Basins abyssal Zoogeographic region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 6.13%">6.1%</span>
@@ -466,7 +468,7 @@ Amundsen and Nansen Basins abyssal region
 <a href=../cf/s224985b6.html>7177</a>
 </td>
 <td style="text-align:left;">
-VII.2.3. Abyssal hills
+Benthic communities, VII.2.3. Amundsen and Nansen basins abyssal hills
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.20%">3.2%</span>
@@ -486,7 +488,7 @@ VII.2.3. Abyssal hills
 <a href=../cf/s607c0612.html>3049</a>
 </td>
 <td style="text-align:left;">
-Multiyear Ice distribution in September in the Central Arctic LME
+Multiyear Ice biological communities, September, Central Arctic Ocean
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 2.42%">2.4%</span>
@@ -504,7 +506,7 @@ Multiyear Ice distribution in September in the Central Arctic LME
 </tbody>
 </table>
 <div style="font-size:70%;text-align:right;color:#bbb;">
-Updated: 2021-03-11 20:34
+Updated: 2023-01-25 20:56
 </div>
 </div>
 </div>

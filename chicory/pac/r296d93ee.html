@@ -14,21 +14,22 @@
 
 <title>ArcNet PAC 7</title>
 
-<script src="https://nplatonov.github.io/site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="https://nplatonov.github.io/site_libs/header-attrs-2.20/header-attrs.js"></script>
+<link href="https://nplatonov.github.io/site_libs/value-box-core-0.6.0/value-box.css" rel="stylesheet" />
 <link href="https://nplatonov.github.io/site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="https://nplatonov.github.io/site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="https://nplatonov.github.io/site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
 <script src="https://nplatonov.github.io/site_libs/raphael-2.1.4/raphael-2.1.4.min.js"></script>
 <link href="https://nplatonov.github.io/site_libs/justgage-1.2.2.1/justgage.css" rel="stylesheet" />
 <script src="https://nplatonov.github.io/site_libs/justgage-1.2.2.1/justgage.js"></script>
-<script src="https://nplatonov.github.io/site_libs/gauge-binding-0.5.2/gauge.js"></script>
-<script src="https://nplatonov.github.io/site_libs/jquery-3.5.1/jquery.min.js"></script>
-<script src="https://nplatonov.github.io/site_libs/plotly-binding-4.9.3/plotly.js"></script>
+<script src="https://nplatonov.github.io/site_libs/gauge-binding-0.6.0/gauge.js"></script>
+<script src="https://nplatonov.github.io/site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://nplatonov.github.io/site_libs/plotly-binding-4.10.1/plotly.js"></script>
 <script src="https://nplatonov.github.io/site_libs/typedarray-0.1/typedarray.min.js"></script>
-<link href="https://nplatonov.github.io/site_libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
-<link href="https://nplatonov.github.io/site_libs/plotly-htmlwidgets-css-1.57.1/plotly-htmlwidgets.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/plotly-main-1.57.1/plotly-latest.min.js"></script>
+<link href="https://nplatonov.github.io/site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="https://nplatonov.github.io/site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="https://nplatonov.github.io/site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="https://nplatonov.github.io/site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -39,6 +40,7 @@
   ul.task-list{list-style: none;}
       .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
+
 
 
 
@@ -75,22 +77,22 @@
 </div>
 <div class="multirow">
 <div class="multicol" style="width: 210px">
-<div id="htmlwidget-59a92e035256e3251e41" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-59a92e035256e3251e41">{"x":{"value":0.82,"min":0,"max":100,"customSectors":[{"lo":0,"hi":100,"color":"success"}],"symbol":"%","label":"of total ArcNet\nPAC area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-dd27f6e63dcc1eb188f6" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-dd27f6e63dcc1eb188f6">{"x":{"value":14.1,"min":0,"max":100,"customSectors":[{"lo":0,"hi":100,"color":"success"}],"symbol":"%","label":"of the Largest\nPAC Area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-bb244f118c5afb3c3a02" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-bb244f118c5afb3c3a02">{"x":{"value":85,"min":0,"max":100,"customSectors":[{"lo":33.3,"hi":100,"color":"success"},{"lo":10,"hi":33.2,"color":"warning"},{"lo":0,"hi":9.9,"color":"danger"}],"symbol":"%","label":"covered by\nexisting protected areas","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-f1acc47f052df9bb707d" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-f1acc47f052df9bb707d">{"x":{"value":32,"min":0,"max":796,"customSectors":[{"lo":80,"hi":796,"color":"success"},{"lo":40,"hi":79,"color":"warning"},{"lo":0,"hi":39,"color":"danger"}],"symbol":"","label":"CFs\nin the selected PAC","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-2499f78c8825e262d16b" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-2499f78c8825e262d16b">{"x":{"value":0.82,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":0,"hi":100,"color":"rgba(63, 182, 24, 0.7)"}]},"symbol":"%","label":"of total ArcNet\nPAC area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-7e7948ae8f1e767999f2" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-7e7948ae8f1e767999f2">{"x":{"value":14.1,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":0,"hi":100,"color":"rgba(63, 182, 24, 0.7)"}]},"symbol":"%","label":"of the Largest\nPAC Area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-91057f886ed2b36b278a" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-91057f886ed2b36b278a">{"x":{"value":85,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":33.3,"hi":100,"color":"rgba(63, 182, 24, 0.7)"},{"lo":10,"hi":33.2,"color":"rgba(255, 117, 24, 0.7)"},{"lo":0,"hi":9.9,"color":"rgba(255, 0, 57, 0.7)"}]},"symbol":"%","label":"covered by\nexisting protected areas","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-10149335951a84e2961f" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-10149335951a84e2961f">{"x":{"value":32,"min":0,"max":796,"customSectors":{"percents":false,"ranges":[{"lo":80,"hi":796,"color":"rgba(63, 182, 24, 0.7)"},{"lo":40,"hi":79,"color":"rgba(255, 117, 24, 0.7)"},{"lo":0,"hi":39,"color":"rgba(255, 0, 57, 0.7)"}]},"symbol":"","label":"CFs\nin the selected PAC","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div id="htmlwidget-31b38546525b2d3d239d" style="width:410px;height:260px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-31b38546525b2d3d239d">{"x":{"visdat":{"1c70124d6adc":["function () ","plotlyVisDat"]},"cur_data":"1c70124d6adc","attrs":{"1c70124d6adc":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"1c70124d6adc.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"1c70124d6adc.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":0,"l":0,"t":45,"r":0},"annotations":[{"text":"4.7 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Marine mammals","showarrow":false,"xanchor":"right"},{"text":"10.6 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Seabirds","showarrow":false,"xanchor":"right"},{"text":"2.1 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Fishes","showarrow":false,"xanchor":"right"},{"text":"3.7 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Sea ice biota","showarrow":false,"xanchor":"right"},{"text":"2 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Benthos","showarrow":false,"xanchor":"right"},{"text":"0 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Coastal features","showarrow":false,"xanchor":"right"}],"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.5},"xaxis":{"domain":[0,1],"automargin":true,"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.2},"x":0.3,"showticklabels":false,"showgrid":false,"showline":false,"zeroline":false,"visible":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Benthos","Coastal features","Fishes","Marine mammals","Sea ice biota","Seabirds"]},"barmode":"stack","showlegend":false,"hovermode":"closest"},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[0,0.105769230769231,0,0,0,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)","line":{"color":"rgba(31,119,180,1)"}},"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.047008547008547,0,0.0212765957446809,0.0365853658536585,0.0197628458498024,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)","line":{"color":"rgba(255,127,14,1)"}},"type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.052991452991453,0,0.0787234042553192,0.0634146341463415,0.0802371541501976,0.1],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)","line":{"color":"rgba(44,160,44,1)"}},"type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-c25c9082083ea99663e0" style="width:410px;height:260px;"></div>
+<script type="application/json" data-for="htmlwidget-c25c9082083ea99663e0">{"x":{"visdat":{"2cc062061a48":["function () ","plotlyVisDat"]},"cur_data":"2cc062061a48","attrs":{"2cc062061a48":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"2cc062061a48.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"2cc062061a48.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":0,"l":0,"t":45,"r":0},"annotations":[{"text":"4.7 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Marine mammals","showarrow":false,"xanchor":"right"},{"text":"10.6 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Seabirds","showarrow":false,"xanchor":"right"},{"text":"2.1 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Fishes","showarrow":false,"xanchor":"right"},{"text":"3.7 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Sea ice biota","showarrow":false,"xanchor":"right"},{"text":"2 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Benthos","showarrow":false,"xanchor":"right"},{"text":"0 %","xref":"xref","yref":"yref","x":0.155480769230769,"y":"Coastal features","showarrow":false,"xanchor":"right"}],"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.5},"xaxis":{"domain":[0,1],"automargin":true,"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.2},"x":0.3,"showticklabels":false,"showgrid":false,"showline":false,"zeroline":false,"visible":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Benthos","Coastal features","Fishes","Marine mammals","Sea ice biota","Seabirds"]},"barmode":"stack","showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":[0,0.105769230769231,0,0,0,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)","line":{"color":"rgba(31,119,180,1)"}},"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.047008547008547,0,0.0212765957446809,0.0365853658536585,0.0197628458498024,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)","line":{"color":"rgba(255,127,14,1)"}},"type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.052991452991453,0,0.0787234042553192,0.0634146341463415,0.0802371541501976,0.1],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)","line":{"color":"rgba(44,160,44,1)"}},"type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 <div class="multirow" style="width: var(--multirowWidth);">
 <!-- :::{class=multirow style=""} -->
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#C6856EFF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#CB836CFF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 1
@@ -105,7 +107,7 @@ CFs entirely within the PAC area
 </div>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#91A64DFF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#8C90D1FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 10
@@ -122,7 +124,7 @@ CFs at least 25% within the PAC area
 <!-- ::: -->
 <!-- :::{class=multirow style=""} -->
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#C78B49FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#D47C77FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 8
@@ -137,7 +139,7 @@ CFs with at least 50% of their target achieved in the PAC
 </div>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#5EAAC3FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#A97FDDFF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 11
@@ -186,7 +188,7 @@ PAC’s Cont­ri­bu­tion to the Achie­ved Tar­get
 <a href=../cf/se4c52a08.html>3003</a>
 </td>
 <td style="text-align:left;">
-Fast Ice distribution in the Wrangel Island region
+Fast Ice biological communities, Wrangel Island region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 100.00%">100.0%</span>
@@ -206,7 +208,7 @@ Fast Ice distribution in the Wrangel Island region
 <a href=../cf/se507403f.html>3103</a>
 </td>
 <td style="text-align:left;">
-Polynyas distribution in the Wrangel region
+Polynya biological communities, Wrangel Island
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 99.95%">100.0%</span>
@@ -226,7 +228,7 @@ Polynyas distribution in the Wrangel region
 <a href=../cf/s1bcd49d0.html>7006</a>
 </td>
 <td style="text-align:left;">
-Wrangel Island area of increased benthic biomass
+Benthic biomass hotspot, Wrangel Island
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 76.11%">76.1%</span>
@@ -246,7 +248,7 @@ Wrangel Island area of increased benthic biomass
 <a href=../cf/s7c2558ba.html>7246</a>
 </td>
 <td style="text-align:left;">
-Wrangel Island and Schmidt Cape kelp patches (24-26)
+Kelp forests, Wrangel Island and Schmidt Cape
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 66.67%">66.7%</span>
@@ -266,7 +268,7 @@ Wrangel Island and Schmidt Cape kelp patches (24-26)
 <a href=../cf/sf5cc311e.html>6081</a>
 </td>
 <td style="text-align:left;">
-Thick-billed murre (Uria lomvia hecheri) breeding colonies
+Thick-billed murre (<em>Uria lomvia hecheri</em>) breeding colonies
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 38.46%">38.5%</span>
@@ -286,7 +288,7 @@ Thick-billed murre (Uria lomvia hecheri) breeding colonies
 <a href=../cf/s3bba1538.html>6105</a>
 </td>
 <td style="text-align:left;">
-Thick-billed murre (Uria lomvia hecheri) breeding colonies buffer feeding area
+Thick-billed murre (<em>Uria lomvia heckeri</em>) breeding colonies foraging range buffer
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 34.49%">34.5%</span>
@@ -306,7 +308,7 @@ Thick-billed murre (Uria lomvia hecheri) breeding colonies buffer feeding area
 <a href=../cf/sce499878.html>9022</a>
 </td>
 <td style="text-align:left;">
-polar bear denning areas of CS (Chukchi Sea) subpopulation
+Polar bear (<em>Ursus maritimus</em>), Chukchi Sea subpopulation, denning grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 32.81%">32.8%</span>
@@ -326,7 +328,7 @@ polar bear denning areas of CS (Chukchi Sea) subpopulation
 <a href=../cf/se086c726.html>2038</a>
 </td>
 <td style="text-align:left;">
-Ringed seal foraging areas in the Chukchi Sea
+Ringed seal (<em>Phoca hispida</em>) feeding grounds, Chukchi Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 30.91%">30.9%</span>
@@ -346,7 +348,7 @@ Ringed seal foraging areas in the Chukchi Sea
 <a href=../cf/sa5c2b0d0.html>5043</a>
 </td>
 <td style="text-align:left;">
-Bowhead whale of the Bering-Chukchi-Beaufort population autumn core distribution
+Bowhead whale (<em>Balaena mysticetus</em>), Bering-Chukchi-Beaufort population, autumn grounds / core areas
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 30.58%">30.6%</span>
@@ -366,7 +368,7 @@ Bowhead whale of the Bering-Chukchi-Beaufort population autumn core distribution
 <a href=../cf/sb2772c41.html>2001</a>
 </td>
 <td style="text-align:left;">
-Bearded seal foraging areas in the Chukchi Sea
+Bearded seal (<em>Erignatus barbatus</em>) foraging areas, Chukchi Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 28.17%">28.2%</span>
@@ -386,7 +388,7 @@ Bearded seal foraging areas in the Chukchi Sea
 <a href=../cf/s91afedf8.html>7044</a>
 </td>
 <td style="text-align:left;">
-Western Chukchi transitional zone
+Benthic communities, Transitional Zoogeographic zone, western Chukchi Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 14.00%">14.0%</span>
@@ -406,7 +408,7 @@ Western Chukchi transitional zone
 <a href=../cf/s151c5fcf.html>9004</a>
 </td>
 <td style="text-align:left;">
-polar bear of the CS (Chukchi Sea) subpopulation distribution
+Polar bear (<em>Ursus maritimus</em>), Chukchi Sea subpopulation, home range
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 11.62%">11.6%</span>
@@ -426,7 +428,7 @@ polar bear of the CS (Chukchi Sea) subpopulation distribution
 <a href=../cf/s4d70567b.html>7081</a>
 </td>
 <td style="text-align:left;">
-I.2.1.5. Shelf valleys
+Benthic communities, I.2.1.5. Chukchi Sea shelf valleys
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 10.08%">10.1%</span>
@@ -446,7 +448,7 @@ I.2.1.5. Shelf valleys
 <a href=../cf/s56e12871.html>3030</a>
 </td>
 <td style="text-align:left;">
-Marginal Ice Zone distribution in July in the Chukchi Sea LME
+MIZ biological communities, July, Chukchi Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 9.32%">9.3%</span>
@@ -466,7 +468,7 @@ Marginal Ice Zone distribution in July in the Chukchi Sea LME
 <a href=../cf/scbab94e5.html>2008</a>
 </td>
 <td style="text-align:left;">
-Bearded seal whelping areas in the Chukchi Sea
+Bearded seal (<em>Erignatus barbatus</em>) whelping grounds, Chukchi Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 8.31%">8.3%</span>
@@ -486,7 +488,7 @@ Bearded seal whelping areas in the Chukchi Sea
 <a href=../cf/sd1762d5c.html>2045</a>
 </td>
 <td style="text-align:left;">
-Ringed seal whelping areas in the Chukchi Sea
+Ringed seal (<em>Phoca hispida</em>) whelping grounds, Chukchi Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 8.15%">8.1%</span>
@@ -506,7 +508,7 @@ Ringed seal whelping areas in the Chukchi Sea
 <a href=../cf/sd2d9b00d.html>6103</a>
 </td>
 <td style="text-align:left;">
-Thick-billed murre (Uria lomvia arrra) breeding colonies buffer feeding area
+Thick-billed murre (<em>Uria lomvia arra</em>) breeding colonies foraging range buffer
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 6.78%">6.8%</span>
@@ -526,7 +528,7 @@ Thick-billed murre (Uria lomvia arrra) breeding colonies buffer feeding area
 <a href=../cf/s3a7766ed.html>7080</a>
 </td>
 <td style="text-align:left;">
-I.2.1.4. Shelf plains
+Benthic communities, I.2.1.4. Chukchi Sea shelf plains
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 6.63%">6.6%</span>
@@ -546,7 +548,7 @@ I.2.1.4. Shelf plains
 <a href=../cf/s50ba17db.html>1017</a>
 </td>
 <td style="text-align:left;">
-Pacific Walrus haulouts
+Walrus (<em>Odobaenus rosmarus divergens</em>) Pacific population, haulouts
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 6.51%">6.5%</span>
@@ -566,7 +568,7 @@ Pacific Walrus haulouts
 <a href=../cf/s7c8fa5e3.html>6079</a>
 </td>
 <td style="text-align:left;">
-Thick-billed murre (Uria lomvia arrra) breeding colonies
+Thick-billed murre (<em>Uria lomvia arrra</em>) breeding colonies
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 6.12%">6.1%</span>
@@ -586,7 +588,7 @@ Thick-billed murre (Uria lomvia arrra) breeding colonies
 <a href=../cf/s9e37bb9b.html>2035</a>
 </td>
 <td style="text-align:left;">
-Ribbon seal foraging areas in the Chukchi Sea
+Ribbon seal (<em>Histriophoca fasciata</em>) feeding grounds, Chukchi Sea
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 6.09%">6.1%</span>
@@ -606,7 +608,7 @@ Ribbon seal foraging areas in the Chukchi Sea
 <a href=../cf/sd5b47414.html>6107</a>
 </td>
 <td style="text-align:left;">
-Horned puffin (Fratercula corniculata) breeding colonies buffer feeding area
+Horned puffin (<em>Fratercula corniculata</em>) breeding colonies foraging range buffer
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.89%">5.9%</span>
@@ -626,7 +628,7 @@ Horned puffin (Fratercula corniculata) breeding colonies buffer feeding area
 <a href=../cf/sa91dda2d.html>5116</a>
 </td>
 <td style="text-align:left;">
-Beluga of the Eeastern Beaufort Sea autumn core distribution
+Beluga (<em>Delphinapterus leucas</em>), Eeastern Beaufort Sea stock, autumn grounds, core areas
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.71%">5.7%</span>
@@ -646,7 +648,7 @@ Beluga of the Eeastern Beaufort Sea autumn core distribution
 <a href=../cf/s613fd843.html>6030</a>
 </td>
 <td style="text-align:left;">
-Glaucous gull (Larus hyperboreus pallidissimus) breeding grounds
+Glaucous gull (<em>Larus hyperboreus pallidissimus</em>) breeding grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.64%">5.6%</span>
@@ -666,7 +668,7 @@ Glaucous gull (Larus hyperboreus pallidissimus) breeding grounds
 <a href=../cf/s4bd0e1b7.html>6100</a>
 </td>
 <td style="text-align:left;">
-Black-legged kittiwake (Rissa tridactyla pollicarius) breeding colonies buffer feeding area
+Black-legged kittiwake (<em>Rissa tridactyla pollicaris</em>) breeding colonies foraging range buffer
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.52%">5.5%</span>
@@ -686,7 +688,7 @@ Black-legged kittiwake (Rissa tridactyla pollicarius) breeding colonies buffer f
 <a href=../cf/s20a5c6b6.html>6048</a>
 </td>
 <td style="text-align:left;">
-Black-legged kittiwake (Rissa tridactyla pollicarius) breeding colonies
+Black-legged kittiwake (<em>Rissa tridactyla tridactyla</em>) breeding colonies
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 4.82%">4.8%</span>
@@ -706,7 +708,7 @@ Black-legged kittiwake (Rissa tridactyla pollicarius) breeding colonies
 <a href=../cf/s290fbad6.html>5105</a>
 </td>
 <td style="text-align:left;">
-Bowhead whale of the Bering-Chukchi-Beaufort population autumn distribution
+Bowhead whale (<em>Balaena mysticetus</em>), Bering-Chukchi-Beaufort population, autumn grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.79%">3.8%</span>
@@ -726,7 +728,7 @@ Bowhead whale of the Bering-Chukchi-Beaufort population autumn distribution
 <a href=../cf/sa1815dfe.html>4078</a>
 </td>
 <td style="text-align:left;">
-Fish zoogeography, Arctic Region, High-Arctic Shelf Province, Wrangel – Beaufort District
+Fish communities, Wrangel - Beaufort Zoogeographic District, High Arctic Shelf Province, Arctic Region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.58%">3.6%</span>
@@ -746,7 +748,7 @@ Fish zoogeography, Arctic Region, High-Arctic Shelf Province, Wrangel – Beaufo
 <a href=../cf/s240e8a57.html>6011</a>
 </td>
 <td style="text-align:left;">
-Brent goose (Branta bernicla nigricans) Asian breeding&amp;moulting grounds
+Brent goose (<em>Branta bernicla nigricans</em>) breeding / moulting grounds, Asia
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.56%">3.6%</span>
@@ -766,7 +768,7 @@ Brent goose (Branta bernicla nigricans) Asian breeding&amp;moulting grounds
 <a href=../cf/sa5de809b.html>6102</a>
 </td>
 <td style="text-align:left;">
-Common murre (Uria aalge inornata) breeding colonies buffer feeding area
+Common murre (<em>Uria aalge inornata</em>) breeding colonies foraging range buffer
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.56%">3.6%</span>
@@ -786,7 +788,7 @@ Common murre (Uria aalge inornata) breeding colonies buffer feeding area
 <a href=../cf/sf52b8933.html>6066</a>
 </td>
 <td style="text-align:left;">
-Common eider (Somateria mollissima v-nigrum) breeding&amp;moulting grounds
+Common eider (<em>Somateria mollissima v-nigrum</em>) breeding / moulting grounds
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.19%">3.2%</span>
@@ -806,7 +808,7 @@ Common eider (Somateria mollissima v-nigrum) breeding&amp;moulting grounds
 <a href=../cf/s313e406f.html>4077</a>
 </td>
 <td style="text-align:left;">
-Fish zoogeography, Arctic Region, High-Arctic Shelf Province, Laptev – East-Siberian District
+Fish communities, Laptev - East-Siberian Seas Zoogeographic District, High Arctic Shelf Province, Arctic Region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 1.98%">2.0%</span>
@@ -824,7 +826,7 @@ Fish zoogeography, Arctic Region, High-Arctic Shelf Province, Laptev – East-Si
 </tbody>
 </table>
 <div style="font-size:70%;text-align:right;color:#bbb;">
-Updated: 2021-03-11 20:37
+Updated: 2023-01-25 20:40
 </div>
 </div>
 </div>

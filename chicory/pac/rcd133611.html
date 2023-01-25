@@ -14,21 +14,22 @@
 
 <title>ArcNet PAC 54</title>
 
-<script src="https://nplatonov.github.io/site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="https://nplatonov.github.io/site_libs/header-attrs-2.20/header-attrs.js"></script>
+<link href="https://nplatonov.github.io/site_libs/value-box-core-0.6.0/value-box.css" rel="stylesheet" />
 <link href="https://nplatonov.github.io/site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="https://nplatonov.github.io/site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<script src="https://nplatonov.github.io/site_libs/htmlwidgets-1.6.1/htmlwidgets.js"></script>
 <script src="https://nplatonov.github.io/site_libs/raphael-2.1.4/raphael-2.1.4.min.js"></script>
 <link href="https://nplatonov.github.io/site_libs/justgage-1.2.2.1/justgage.css" rel="stylesheet" />
 <script src="https://nplatonov.github.io/site_libs/justgage-1.2.2.1/justgage.js"></script>
-<script src="https://nplatonov.github.io/site_libs/gauge-binding-0.5.2/gauge.js"></script>
-<script src="https://nplatonov.github.io/site_libs/jquery-3.5.1/jquery.min.js"></script>
-<script src="https://nplatonov.github.io/site_libs/plotly-binding-4.9.3/plotly.js"></script>
+<script src="https://nplatonov.github.io/site_libs/gauge-binding-0.6.0/gauge.js"></script>
+<script src="https://nplatonov.github.io/site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://nplatonov.github.io/site_libs/plotly-binding-4.10.1/plotly.js"></script>
 <script src="https://nplatonov.github.io/site_libs/typedarray-0.1/typedarray.min.js"></script>
-<link href="https://nplatonov.github.io/site_libs/crosstalk-1.1.1/css/crosstalk.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/crosstalk-1.1.1/js/crosstalk.min.js"></script>
-<link href="https://nplatonov.github.io/site_libs/plotly-htmlwidgets-css-1.57.1/plotly-htmlwidgets.css" rel="stylesheet" />
-<script src="https://nplatonov.github.io/site_libs/plotly-main-1.57.1/plotly-latest.min.js"></script>
+<link href="https://nplatonov.github.io/site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="https://nplatonov.github.io/site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="https://nplatonov.github.io/site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet" />
+<script src="https://nplatonov.github.io/site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -39,6 +40,7 @@
   ul.task-list{list-style: none;}
       .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
+
 
 
 
@@ -75,22 +77,22 @@
 </div>
 <div class="multirow">
 <div class="multicol" style="width: 210px">
-<div id="htmlwidget-e45eb6a1ba0fca960aa8" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-e45eb6a1ba0fca960aa8">{"x":{"value":5.82,"min":0,"max":100,"customSectors":[{"lo":0,"hi":100,"color":"success"}],"symbol":"%","label":"of total ArcNet\nPAC area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-a186ef304206d11f13ed" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-a186ef304206d11f13ed">{"x":{"value":100,"min":0,"max":100,"customSectors":[{"lo":0,"hi":100,"color":"success"}],"symbol":"%","label":"of the Largest\nPAC Area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-2ef3b94ae2ab2b224a08" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2ef3b94ae2ab2b224a08">{"x":{"value":96.9,"min":0,"max":100,"customSectors":[{"lo":33.3,"hi":100,"color":"success"},{"lo":10,"hi":33.2,"color":"warning"},{"lo":0,"hi":9.9,"color":"danger"}],"symbol":"%","label":"covered by\nexisting protected areas","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
-<div id="htmlwidget-5b68ebb466425d599b2a" style="width:210px;height:310px;" class="gauge html-widget"></div>
-<script type="application/json" data-for="htmlwidget-5b68ebb466425d599b2a">{"x":{"value":29,"min":0,"max":796,"customSectors":[{"lo":80,"hi":796,"color":"success"},{"lo":40,"hi":79,"color":"warning"},{"lo":0,"hi":39,"color":"danger"}],"symbol":"","label":"CFs\nin the selected PAC","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-3c959adad813f02dbf79" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-3c959adad813f02dbf79">{"x":{"value":5.82,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":0,"hi":100,"color":"rgba(63, 182, 24, 0.7)"}]},"symbol":"%","label":"of total ArcNet\nPAC area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-78725e75c8a0c4d1ea9d" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-78725e75c8a0c4d1ea9d">{"x":{"value":100,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":0,"hi":100,"color":"rgba(63, 182, 24, 0.7)"}]},"symbol":"%","label":"of the Largest\nPAC Area","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-802d2f996a58ae8ca45a" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-802d2f996a58ae8ca45a">{"x":{"value":96.9,"min":0,"max":100,"customSectors":{"percents":false,"ranges":[{"lo":33.3,"hi":100,"color":"rgba(63, 182, 24, 0.7)"},{"lo":10,"hi":33.2,"color":"rgba(255, 117, 24, 0.7)"},{"lo":0,"hi":9.9,"color":"rgba(255, 0, 57, 0.7)"}]},"symbol":"%","label":"covered by\nexisting protected areas","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
+<div class="gauge html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ffd7e7446d6bc161631e" style="width:210px;height:310px;"></div>
+<script type="application/json" data-for="htmlwidget-ffd7e7446d6bc161631e">{"x":{"value":29,"min":0,"max":796,"customSectors":{"percents":false,"ranges":[{"lo":80,"hi":796,"color":"rgba(63, 182, 24, 0.7)"},{"lo":40,"hi":79,"color":"rgba(255, 117, 24, 0.7)"},{"lo":0,"hi":39,"color":"rgba(255, 0, 57, 0.7)"}]},"symbol":"","label":"CFs\nin the selected PAC","humanFriendly":true,"humanFriendlyDecimal":1,"href":null},"evals":[],"jsHooks":[]}</script>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div id="htmlwidget-8ee68f4c8d21f9e9c1c1" style="width:410px;height:260px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-8ee68f4c8d21f9e9c1c1">{"x":{"visdat":{"1db05ac86f55":["function () ","plotlyVisDat"]},"cur_data":"1db05ac86f55","attrs":{"1db05ac86f55":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"1db05ac86f55.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"1db05ac86f55.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":0,"l":0,"t":45,"r":0},"annotations":[{"text":"0.9 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Marine mammals","showarrow":false,"xanchor":"right"},{"text":"1 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Seabirds","showarrow":false,"xanchor":"right"},{"text":"5.3 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Fishes","showarrow":false,"xanchor":"right"},{"text":"3.7 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Sea ice biota","showarrow":false,"xanchor":"right"},{"text":"7.1 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Benthos","showarrow":false,"xanchor":"right"},{"text":"0 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Coastal features","showarrow":false,"xanchor":"right"}],"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.5},"xaxis":{"domain":[0,1],"automargin":true,"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.2},"x":0.3,"showticklabels":false,"showgrid":false,"showline":false,"zeroline":false,"visible":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Benthos","Coastal features","Fishes","Marine mammals","Sea ice biota","Seabirds"]},"barmode":"stack","showlegend":false,"hovermode":"closest"},"source":"A","config":{"showSendToCloud":false},"data":[{"x":[0,0,0,0,0,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)","line":{"color":"rgba(31,119,180,1)"}},"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.00854700854700855,0.00961538461538462,0.0531914893617021,0.0365853658536585,0.0711462450592885,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)","line":{"color":"rgba(255,127,14,1)"}},"type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.0914529914529915,0.0903846153846154,0.0468085106382979,0.0634146341463415,0.0288537549407115,0.1],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)","line":{"color":"rgba(44,160,44,1)"}},"type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div class="plotly html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-12c4d6f5bc57b69c97af" style="width:410px;height:260px;"></div>
+<script type="application/json" data-for="htmlwidget-12c4d6f5bc57b69c97af">{"x":{"visdat":{"35543fb82337":["function () ","plotlyVisDat"]},"cur_data":"35543fb82337","attrs":{"35543fb82337":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"},"35543fb82337.1":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true},"35543fb82337.2":{"x":{},"y":{},"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)"},"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar","inherit":true}},"layout":{"margin":{"b":0,"l":0,"t":45,"r":0},"annotations":[{"text":"0.9 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Marine mammals","showarrow":false,"xanchor":"right"},{"text":"1 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Seabirds","showarrow":false,"xanchor":"right"},{"text":"5.3 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Fishes","showarrow":false,"xanchor":"right"},{"text":"3.7 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Sea ice biota","showarrow":false,"xanchor":"right"},{"text":"7.1 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Benthos","showarrow":false,"xanchor":"right"},{"text":"0 %","xref":"xref","yref":"yref","x":0.104584980237154,"y":"Coastal features","showarrow":false,"xanchor":"right"}],"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.5},"xaxis":{"domain":[0,1],"automargin":true,"title":{"text":"Thematic group diversity<br />(% of the ArcNet total for each thematic group)","font":{"size":13},"x":0.2},"x":0.3,"showticklabels":false,"showgrid":false,"showline":false,"zeroline":false,"visible":false},"yaxis":{"domain":[0,1],"automargin":true,"title":"","type":"category","categoryorder":"array","categoryarray":["Benthos","Coastal features","Fishes","Marine mammals","Sea ice biota","Seabirds"]},"barmode":"stack","showlegend":false,"hovermode":"closest"},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":[0,0,0,0,0,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.9)","line":{"color":"rgba(31,119,180,1)"}},"type":"bar","error_y":{"color":"rgba(31,119,180,1)"},"error_x":{"color":"rgba(31,119,180,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.00854700854700855,0.00961538461538462,0.0531914893617021,0.0365853658536585,0.0711462450592885,0],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.7)","line":{"color":"rgba(255,127,14,1)"}},"type":"bar","error_y":{"color":"rgba(255,127,14,1)"},"error_x":{"color":"rgba(255,127,14,1)"},"xaxis":"x","yaxis":"y","frame":null},{"x":[0.0914529914529915,0.0903846153846154,0.0468085106382979,0.0634146341463415,0.0288537549407115,0.1],"y":["Marine mammals","Seabirds","Fishes","Sea ice biota","Benthos","Coastal features"],"orientation":"h","marker":{"color":"rgba(246,78,139,0.1)","line":{"color":"rgba(44,160,44,1)"}},"type":"bar","error_y":{"color":"rgba(44,160,44,1)"},"error_x":{"color":"rgba(44,160,44,1)"},"xaxis":"x","yaxis":"y","frame":null}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 <div class="multirow" style="width: var(--multirowWidth);">
 <!-- :::{class=multirow style=""} -->
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#94A549FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#D47C76FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 0
@@ -105,7 +107,7 @@ CFs entirely within the PAC area
 </div>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#C474D0FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#799CC6FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 4
@@ -122,7 +124,7 @@ CFs at least 25% within the PAC area
 <!-- ::: -->
 <!-- :::{class=multirow style=""} -->
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#53B0C3FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#49BBA0FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 11
@@ -137,7 +139,7 @@ CFs with at least 50% of their target achieved in the PAC
 </div>
 </div>
 <div class="multicol" style="width: var(--multicolWidth);">
-<div class="value-box" style="background:#71A0C4FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
+<div class="value-box" style="background:#56B3A6FF;color:white;opacity:1.0;width:var(--valueboxWidth);height:var(--valueboxHeight)">
 <div class="inner" style="filter: brightness(100%)">
 <p class="value">
 16
@@ -186,7 +188,7 @@ PAC’s Cont­ri­bu­tion to the Achie­ved Tar­get
 <a href=../cf/sa82b219e.html>7135</a>
 </td>
 <td style="text-align:left;">
-III.1.1.2. Archipelago outer shelf areas of low and median profile
+Benthic communities, III.1.1.2. Canadian Arctic Archipelago outer shelf areas of low and median profile
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 100.00%">52.2%</span>
@@ -206,7 +208,7 @@ III.1.1.2. Archipelago outer shelf areas of low and median profile
 <a href=../cf/s970043d6.html>7140</a>
 </td>
 <td style="text-align:left;">
-III.1.2.1. Archipelago north slope
+Benthic communities, III.1.2.1. Canadian Arctic Archipelago north slope
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 81.94%">42.8%</span>
@@ -226,7 +228,7 @@ III.1.2.1. Archipelago north slope
 <a href=../cf/s2e96ef4b.html>7022</a>
 </td>
 <td style="text-align:left;">
-Canada - North Greenland bathyal region
+Benthic communities, Canadian Arctic Archipelago - northern Greenland bathyal Zoogeographic region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 67.37%">35.2%</span>
@@ -246,7 +248,7 @@ Canada - North Greenland bathyal region
 <a href=../cf/s77bcbf61.html>3051</a>
 </td>
 <td style="text-align:left;">
-Multiyear Ice distribution in September in the Northern Canadian Archipelago LME
+Multiyear Ice biological communities, September, Northern Canadian Arctic Archipelago
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 48.84%">25.5%</span>
@@ -266,7 +268,7 @@ Multiyear Ice distribution in September in the Northern Canadian Archipelago LME
 <a href=../cf/sbccaa838.html>7197</a>
 </td>
 <td style="text-align:left;">
-VI.3.2. Terraces
+Benthic communities, VI.3.2. Lomonosov Ridge region terraces
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 47.35%">24.7%</span>
@@ -286,7 +288,7 @@ VI.3.2. Terraces
 <a href=../cf/sf12a388b.html>7200</a>
 </td>
 <td style="text-align:left;">
-VI.4. Mendeleev and Alpha Ridges VI.4.1. Plateaus
+Benthic communities, VI.4. Mendeleev and Alpha ridges and VI.4.1. plateaus
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 43.83%">22.9%</span>
@@ -306,7 +308,7 @@ VI.4. Mendeleev and Alpha Ridges VI.4.1. Plateaus
 <a href=../cf/sdb06e98f.html>2014</a>
 </td>
 <td style="text-align:left;">
-Bearded seal whelping areas in the north of the Canadian Archipelago
+Bearded seal (<em>Erignatus barbatus</em>) whelping grounds, northern Canadian Arctic Archipelago
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 38.65%">20.2%</span>
@@ -326,7 +328,7 @@ Bearded seal whelping areas in the north of the Canadian Archipelago
 <a href=../cf/s414884ab.html>7133</a>
 </td>
 <td style="text-align:left;">
-III.1. Canadian Arctic Archipelago shelf and margin
+Benthic communities, III.1. Canadian Arctic Archipelago shelf and margin
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 35.71%">18.6%</span>
@@ -346,7 +348,7 @@ III.1. Canadian Arctic Archipelago shelf and margin
 <a href=../cf/scbcd98ae.html>7196</a>
 </td>
 <td style="text-align:left;">
-VI.3. Lomonosov Ridge VI.3.1. Plateaus
+Benthic communities, VI.3. Lomonosov Ridge and VI.3.1. Plateaus
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 33.91%">17.7%</span>
@@ -366,7 +368,7 @@ VI.3. Lomonosov Ridge VI.3.1. Plateaus
 <a href=../cf/s5b72853f.html>7199</a>
 </td>
 <td style="text-align:left;">
-VI.3.7. Canyons
+Benthic communities, VI.3.7. Lomonosov Ridge region canyons
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 32.31%">16.9%</span>
@@ -386,7 +388,7 @@ VI.3.7. Canyons
 <a href=../cf/se0077340.html>7141</a>
 </td>
 <td style="text-align:left;">
-III.1.2.2. Archipelago north slope canyons
+Benthic communities, III.1.2.2. Canadian Arctic Archipelago north slope canyons
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 31.21%">16.3%</span>
@@ -406,7 +408,7 @@ III.1.2.2. Archipelago north slope canyons
 <a href=../cf/sb79fbef1.html>7021</a>
 </td>
 <td style="text-align:left;">
-Eastern Canadian Archipelago region
+Benthic communities, Eastern Canadian Arctic Archipelago Zoogeographic region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 31.13%">16.3%</span>
@@ -426,7 +428,7 @@ Eastern Canadian Archipelago region
 <a href=../cf/sdf2c1108.html>7134</a>
 </td>
 <td style="text-align:left;">
-III.1.1. 1. Canadian Arctic Archipelago shelf
+Benthic communities, III.1.1. 1. Canadian Arctic Archipelago shelf
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 31.06%">16.2%</span>
@@ -446,7 +448,7 @@ III.1.1. 1. Canadian Arctic Archipelago shelf
 <a href=../cf/s1f2459a7.html>7202</a>
 </td>
 <td style="text-align:left;">
-VI.4.3. Ridges
+Benthic communities, VI.4.3. Mendeleev and Alpha ridges and plateaus region ridges
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 28.38%">14.8%</span>
@@ -466,7 +468,7 @@ VI.4.3. Ridges
 <a href=../cf/secd819bd.html>7014</a>
 </td>
 <td style="text-align:left;">
-Core of Canadian - Greenland Province of Arcto-Atlantic zoogeographical region
+Benthic communities, Canadian - Greenland Province, Arcto-Atlantic Zoogeographic region, core area
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 24.09%">12.6%</span>
@@ -486,7 +488,7 @@ Core of Canadian - Greenland Province of Arcto-Atlantic zoogeographical region
 <a href=../cf/s44c903b2.html>6008</a>
 </td>
 <td style="text-align:left;">
-Brent goose (Branta bernicla hrota) Canadian High Arctic breeding&amp;moulting grounds
+Brent goose (<em>Branta bernicla hrota</em>) breeding / moulting grounds, Canadian Arctic Archipelago
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 19.64%">10.3%</span>
@@ -506,7 +508,7 @@ Brent goose (Branta bernicla hrota) Canadian High Arctic breeding&amp;moulting g
 <a href=../cf/s4cb23c4c.html>7181</a>
 </td>
 <td style="text-align:left;">
-VII.3.3. Abyssal hills
+Benthic communities, VII.3.3. Makarov and Canada basin abyssal hills
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 13.86%">7.2%</span>
@@ -526,7 +528,7 @@ VII.3.3. Abyssal hills
 <a href=../cf/s6576ab40.html>9001</a>
 </td>
 <td style="text-align:left;">
-polar bear of the AB (Arctic Basin) subpopulation distribution
+Polar bear (<em>Ursus maritimus</em>), Arctic Basin subpopulation, home range
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 12.79%">6.7%</span>
@@ -546,7 +548,7 @@ polar bear of the AB (Arctic Basin) subpopulation distribution
 <a href=../cf/s607c0612.html>3049</a>
 </td>
 <td style="text-align:left;">
-Multiyear Ice distribution in September in the Central Arctic LME
+Multiyear Ice biological communities, September, Central Arctic Ocean
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 12.49%">6.5%</span>
@@ -566,7 +568,7 @@ Multiyear Ice distribution in September in the Central Arctic LME
 <a href=../cf/sa83711d5.html>4074</a>
 </td>
 <td style="text-align:left;">
-Fish zoogeography, Arctic Region, High-Arctic Shelf Province, Canadian-Greenland District
+Fish communities, Canadian-Greenland Zoogeographic District,High Arctic Shelf Province, Arctic Region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 12.14%">6.3%</span>
@@ -586,7 +588,7 @@ Fish zoogeography, Arctic Region, High-Arctic Shelf Province, Canadian-Greenland
 <a href=../cf/s462540b2.html>7137</a>
 </td>
 <td style="text-align:left;">
-III.1.1.4. Canadian Archipelago glacial troughs
+Benthic communities, III.1.1.4. Canadian Arctic Archipelago glacial troughs
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 8.12%">4.2%</span>
@@ -606,7 +608,7 @@ III.1.1.4. Canadian Archipelago glacial troughs
 <a href=../cf/sd6866d68.html>4079</a>
 </td>
 <td style="text-align:left;">
-Fish zoogeography, Arctic Region, Arctic Abyssal Province (Scandian, Central-Arctic and Baffin Deep-sea Districts )
+Fish communities, Scandian, Central-Arctic and Baffin Deep Sea Zoogeographic Districts, Arctic Abyssal Province, Arctic Region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 7.96%">4.2%</span>
@@ -626,7 +628,7 @@ Fish zoogeography, Arctic Region, Arctic Abyssal Province (Scandian, Central-Arc
 <a href=../cf/s3bb50cda.html>7180</a>
 </td>
 <td style="text-align:left;">
-VII.3.2. Abyssal plains
+Benthic communities, VII.3.2. Makarov and Canada basin abyssal plains
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.93%">3.1%</span>
@@ -646,7 +648,7 @@ VII.3.2. Abyssal plains
 <a href=../cf/sd8ba5d77.html>4096</a>
 </td>
 <td style="text-align:left;">
-Range of the Glacial eelpout (Lycodes frigidus)
+Glacial eelpout (<em>Lycodes frigidus</em>) home range
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 5.59%">2.9%</span>
@@ -666,7 +668,7 @@ Range of the Glacial eelpout (Lycodes frigidus)
 <a href=../cf/s0465e6f4.html>4053</a>
 </td>
 <td style="text-align:left;">
-Range of the Fourhorn Sculpin (Myoxocephalus quadricornis), Euro-Asian populations
+Fourhorn sculpin (<em>Myoxocephalus quadricornis</em>), Eurasian populations, home range
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 4.95%">2.6%</span>
@@ -686,7 +688,7 @@ Range of the Fourhorn Sculpin (Myoxocephalus quadricornis), Euro-Asian populatio
 <a href=../cf/sf370b699.html>4041</a>
 </td>
 <td style="text-align:left;">
-Range of the Polar Cod (Boreogadus saida)
+Polar cod (<em>Boreogadus saida</em>) home range
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 4.45%">2.3%</span>
@@ -706,7 +708,7 @@ Range of the Polar Cod (Boreogadus saida)
 <a href=../cf/s94afde87.html>3006</a>
 </td>
 <td style="text-align:left;">
-Fast Ice distribution in the Canadian Archipelago region
+Fast Ice biological communities, Canadian Arctic Archipelago region
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.45%">1.8%</span>
@@ -726,7 +728,7 @@ Fast Ice distribution in the Canadian Archipelago region
 <a href=../cf/sd5bb6df6.html>7182</a>
 </td>
 <td style="text-align:left;">
-VII.3.4. Abyssal mountains
+Benthic communities, VII.3.4. Makarov and Canada basin abyssal mountains
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 3.38%">1.8%</span>
@@ -746,7 +748,7 @@ VII.3.4. Abyssal mountains
 <a href=../cf/s224985b6.html>7177</a>
 </td>
 <td style="text-align:left;">
-VII.2.3. Abyssal hills
+Benthic communities, VII.2.3. Amundsen and Nansen basins abyssal hills
 </td>
 <td style="text-align:right;">
 <span style="display: inline-block; direction: rtl; unicode-bidi: plaintext; border-radius: 4px; padding-right: 2px; background-color: lavender; width: 2.03%">1.1%</span>
@@ -764,7 +766,7 @@ VII.2.3. Abyssal hills
 </tbody>
 </table>
 <div style="font-size:70%;text-align:right;color:#bbb;">
-Updated: 2021-03-11 20:37
+Updated: 2023-01-25 20:56
 </div>
 </div>
 </div>
