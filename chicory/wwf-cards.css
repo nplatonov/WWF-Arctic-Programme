@@ -210,8 +210,12 @@ h4.manual {
   /* color: red; */
 }
 .leaflet-top.leaflet-right {
-    top: -5px;
-    right: -5px;
+   top: -5px;
+   right: -5px;
+}
+.bibentry {
+   padding-left: 2em;
+   text-indent: -2em;
 }
 @media screen and (max-height: 660px) {
    .omit-on-small-screen .chart-title {
